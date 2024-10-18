@@ -2,7 +2,7 @@
     "name": "airalo/px-laravel-feature",
     "type": "library",
     "description": "A simple package to manage feature flagging in a Laravel project. And a way to maintain an abandoned package.",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "keywords": ["laravel", "feature", "flag"],
     "homepage": "https://github.com/francescomalatesta/laravel-feature",
     "license": "MIT",
@@ -17,13 +17,13 @@
         }
     ],
     "require": {
-        "php" : "^8.1",
-        "illuminate/database": "^9.0|^10.0",
-        "illuminate/support": "^9.0|^10.0"
+        "php" : "^8.2",
+        "illuminate/database": "^9.0|^10.0|^11.0",
+        "illuminate/support": "^9.0|^10.0|^11.0"
     },
     "require-dev": {
         "mockery/mockery": "^1.0",
-        "orchestra/testbench": "^8.0|^7.0",
+        "orchestra/testbench": "^8.0|^7.0|^9.0",
         "phpunit/phpunit": "^9.0|^10.0",
         "squizlabs/php_codesniffer": "^3.7"
     },
