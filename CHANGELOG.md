@@ -8,6 +8,7 @@ Updates follow the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
 ### Added
 - Add method signature to PHPDoc of the Feature facade
+- Add support for Laravel 13 (`illuminate/database` and `illuminate/support` `^13.0`, `orchestra/testbench` `^11.0`)
 
 ## 0.1.0 - 2016-12-18
 
